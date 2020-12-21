@@ -2,12 +2,11 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    color: #222222;
+    font-size: 42px;
 }
 
 body {
-    background-color: #F84646;
+    background-color: #FEA5AB;
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
@@ -30,42 +29,45 @@ article.perfil {
 }
 
 .nome {
-    margin: 21px 0px 0px 0px;
+    color: #51434a;
+    margin: 6px 0px 0px 0px;
 }
 
 .foto {
-    margin: 0px 0px 21px 0px;
+    margin: 0px 0px 6px 0px;
+}
+
+.descricao {
+    font-size: 24px;
+    color: #ff4754;
+    margin: 0px;
 }
 
 article.conteudo {
     width: 670px;
     height: 370px;
     padding: 85px;
-    background-color: #f1f1f1;
+    background-color: #FFEEEF;
     border-radius: 0px 20px 20px 0px;
 }
 
 .texto {
+    color: #51434a;
     margin: 0px;
 }
 
 .botao-fora {
-    background-color: #F84646;
-    text-align: center;
-    border-radius: 50px;
+    background-color: #ff4754;
+    padding: 20px 0px;
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
 }
 
 a.botao {
+    width: 100%;
     color: #ffffff;
     text-decoration: none;
-    margin: 0px;
-}
-
-img.arrow {
-    width: 61px;
-    height: 61px;
-    margin: 0px;
 }
